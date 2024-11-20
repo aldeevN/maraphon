@@ -1,0 +1,31 @@
+.category__conteiner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.category__card {
+    background-color: var(--white);
+    border-radius: 20px;
+}
+
+.category__head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.category__right-card {
+    margin-left: 40px;
+    background-color: var(--accent-color);
+    border-radius: 20px;
+    min-width: 320px;
+    color: var(--white);
+}
+
+.category__img-card {
+    margin-right: 40px;
+    max-width: 320px;
+    color: var(--white);
+    background-color: var(--white);
+    background-image: url(../img/category-img/img-category.jpg);
+    border-radius: 20px;
+}

@@ -1,0 +1,35 @@
+@import url(./css/header/header.css);
+@import url(./css/header/logo.css);
+@import url(./css/container/container.css);
+@import url(./css/header/menu-items.css);
+@import url(./css/typography.css);
+@import url(./css/category.css);
+@import url(./css/footer/footer.css);
+@import url(./css/footer/footer-logo.css);
+@import url(./css/footer/footer-menu.css);
+@import url(./css/news/news.css);
+@import url(./css/page-bar.css);
+
+@font-face {
+    font-family: FuturaPTBook;
+    src: url(./fonts/FuturaPT-Book.ttf);
+}
+
+@font-face {
+    font-family: FuturaPTMedium;
+    src: url(./fonts/FuturaPT-Medium.ttf);
+}
+
+:root {
+    /* Colors  */
+    --typography-color: #2f2222;
+    --grey-text: rgba(47, 34, 34, 0.4);
+    --background-color: #F9F9F9;
+    --accent-color: #5D71DD;
+    --footer-color: rgba(93, 113, 221, 0.05);
+    --button-color: rgba(255, 255, 255, 0.2);
+    --white: #fff;
+    /* Fonts  */
+    --font-book: FuturaPTBook;
+    --font-medium: FuturaPTMedium;
+}

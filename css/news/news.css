@@ -1,0 +1,28 @@
+.news__form {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--white);
+    border-radius: 20px;
+    padding: 40px 30px;
+}
+
+.email__input {
+    background-color: #f5f5f5;
+    border-radius: 20px;
+    padding: 13px 30px;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.email__input::placeholder {
+    font-family: var(--font-book);
+}
+
+.btn__subscribte {
+    background-color: var(--accent-color);
+    border-radius: 20px;
+    padding: 13px 30px;
+    border: none;
+
+    margin-bottom: 50px;
+}

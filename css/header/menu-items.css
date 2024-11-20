@@ -1,0 +1,36 @@
+.menu__items {
+    color: var(--typography-color);
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    font-family: var(--font-book);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.menu__items :hover {
+    color: var(--accent-color);
+    text-decoration: underline;
+    transition: 1ms;
+}
+
+.items__link {
+    color: var(--typography-color);
+    text-decoration: none;
+    margin-right: 2.5rem;
+}
+
+
+.items__link-phone {
+    font-family: var(--font-medium);
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: var(--accent-color);
+    margin-right: 0;
+}
+
+.group__img {
+    transform: translatey(10%);
+    width: 14px;
+    margin-right: 4.5px;
+}

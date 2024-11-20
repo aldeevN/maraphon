@@ -1,0 +1,65 @@
+.main__title {
+    margin-bottom: 45px;
+    font-family: var(--font-medium);
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.card__typography {
+    font-family: var(--font-book);
+    font-weight: 400;
+    font-size: 1rem;
+    margin-top: 40px;
+    padding: 40px;
+}
+
+.category__number {
+    border-radius: 8px;
+    padding: 8px 16px;
+    background-color: var(--button-color);
+    color: var(--accent-color);
+}
+
+.next__btn {
+    border-radius: 8px;
+    background-color: var(--button-color);
+    color: var(--accent-color);
+}
+
+.category__title {
+    margin-top: 30px;
+    font-family: var(--font-medium);
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.category__data {
+    color: var(--grey-text);
+
+}
+
+
+.categry__paragraph {
+    color: var(--grey-text);
+    margin-top: 20px;
+    font-size: 1.125rem;
+    margin-bottom: 12px;
+    margin-right: 80px;
+}
+
+.data__typography {
+    color: var(--grey-text);
+    font-size: 1.125rem;
+    border-bottom: 1px solid var(--grey-text);
+}
+
+.footer__paragraph {
+    font-family: var(--font-book);
+    color: var(--grey-text);
+    font-size: 0.875rem;
+}
+
+.btn__subscribte {
+    color: var(--white);
+    font-family: var(--font-book);
+}
