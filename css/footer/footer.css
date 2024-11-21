@@ -7,6 +7,11 @@
 
 
 @media screen and (max-width:320px) {
+    .footer__container {
+        margin: 0 auto;
+        min-width: 100vw;
+    }
+
     .menu__items {
         display: flex;
         flex-direction: column;

@@ -25,32 +25,17 @@
     border-radius: 20px;
 }
 
-@media screen and (max-width:1024px) {
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-
-    .category__right-card {
-        min-width: 300px;
-    }
-
-    .category__img-card {
-        max-width: 300px;
-    }
-}
 
 @media screen and (max-width:320px) {
 
 
     .category__right-card {
         margin: 0 auto;
-        min-width: 280px;
+        min-width: 180px;
     }
 
     .category__img-card {
         margin: 0 auto;
-        max-width: 280px;
+        max-width: 180px;
     }
 }

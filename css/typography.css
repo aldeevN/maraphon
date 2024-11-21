@@ -68,6 +68,10 @@
 }
 
 @media screen and (max-width: 1024px) {
+    .footer__paragraph {
+        margin-top: 80px;
+    }
+
     .data__typography {
         border: none;
     }
