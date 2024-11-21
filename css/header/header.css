@@ -2,6 +2,8 @@
     background: var(--white);
     position: sticky;
     top: 0;
+    min-width: 100%;
+
 }
 
 
@@ -10,4 +12,18 @@
     justify-content: space-between;
     align-items: center;
     height: 70px;
+}
+
+@media screen and (max-width: 320px) {
+
+    .header__conteiner {
+        min-height: 220px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .items__link {
+        margin: 0;
+        padding: 0;
+    }
 }

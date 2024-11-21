@@ -31,13 +31,16 @@
     font-family: var(--font-medium);
     font-weight: 500;
     font-size: 1.5rem;
+
 }
 
 .category__data {
     color: var(--grey-text);
-
 }
 
+.category__right-card {
+    color: var(--white);
+}
 
 .categry__paragraph {
     color: var(--grey-text);
@@ -62,4 +65,10 @@
 .btn__subscribte {
     color: var(--white);
     font-family: var(--font-book);
+}
+
+@media screen and (max-width: 1024px) {
+    .data__typography {
+        border: none;
+    }
 }
